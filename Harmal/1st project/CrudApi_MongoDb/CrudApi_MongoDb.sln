@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudApi_MongoDb", "CrudApi_MongoDb\CrudApi_MongoDb.csproj", "{0E00209D-1527-4CB0-BE6F-6E9CB49EE03F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E00209D-1527-4CB0-BE6F-6E9CB49EE03F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E00209D-1527-4CB0-BE6F-6E9CB49EE03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E00209D-1527-4CB0-BE6F-6E9CB49EE03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E00209D-1527-4CB0-BE6F-6E9CB49EE03F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8973E69B-0D3E-4D2F-A1BB-302EC7F9F208}
+	EndGlobalSection
+EndGlobal

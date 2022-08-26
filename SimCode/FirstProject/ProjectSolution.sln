@@ -1,14 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWebApiWithSql", "SimpleWebApiWithSql\SimpleWebApiWithSql.csproj", "{7CB4EACE-2A18-46B7-B120-FCD5A8558080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWebApiWithMongoDb", "SimpleWebApiWithMongoDb\SimpleWebApiWithMongoDb.csproj", "{559833F7-9BAA-486B-BE96-F9EE8F2D8940}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CB4EACE-2A18-46B7-B120-FCD5A8558080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB4EACE-2A18-46B7-B120-FCD5A8558080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB4EACE-2A18-46B7-B120-FCD5A8558080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB4EACE-2A18-46B7-B120-FCD5A8558080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559833F7-9BAA-486B-BE96-F9EE8F2D8940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559833F7-9BAA-486B-BE96-F9EE8F2D8940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559833F7-9BAA-486B-BE96-F9EE8F2D8940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559833F7-9BAA-486B-BE96-F9EE8F2D8940}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63C07F97-3C25-4600-8985-96E5E8815F17}
 	EndGlobalSection
 EndGlobal
